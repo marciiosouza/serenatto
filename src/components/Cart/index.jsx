@@ -25,7 +25,7 @@ export const Cart = ({ imageSrc, title, description }) => {
 
         {description}
         <div className="pt-5">
-          <ButtonCard />
+          <ButtonCard name="Quero detalhes!"  />
         </div>
       </Card>
     </Box>

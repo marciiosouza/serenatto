@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png'
 
 export const Header = () => {
   return (
-    <nav className="flex justify-between items-center px-10  py-2 shadow-lg fixed w-full top-0 bg-gray-200">
+    <nav className="flex justify-between items-center px-10  py-2 shadow-lg fixed w-full top-0 bg-gray-200 z-50">
       <div className="brand">
         <img src={logo} alt="Logo Serenatto" />
       </div>
